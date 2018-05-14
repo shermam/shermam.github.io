@@ -1,37 +1,29 @@
-## Welcome to GitHub Pages
+## Hi! I am Shermam Miranda
 
-You can use the [editor on GitHub](https://github.com/shermam/shermam.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+I am a software developer. I graduated in IT at the Newton Paiva Colege in Belo Horizonte, MG - Brazil in 2013.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Since the I have worked with these backend languages:
 
-### Markdown
+- Java
+- C#
+- Node JS
+- PHP
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+And with these frontend languages:
 
-```markdown
-Syntax highlighted code block
+- HTML
+- CSS
+- Javascript
 
-# Header 1
-## Header 2
-### Header 3
+I have also worked with some frameworks like Angula JS, Angular and Bootstrap.
 
-- Bulleted
-- List
+Althoug in the past I have worked with desktop applications, nowadays I try to focus in developing responsive web applications that usually comunicate with a RESP api in the backend.
 
-1. Numbered
-2. List
+I really like to be up to date with the newest web technologies. And I love to learn new things.
+I mainly use github to store my toy projects. These projects usually are exemples of technologies that I am learning, or ideas that I would like to try to implement.
 
-**Bold** and _Italic_ and `Code` text
+Ahmm, and I also like to play a lot of chess and play musical intruments. And I try to use my developer skills to try and do some new things related to that.
 
-[Link](url) and ![Image](src)
-```
+If you share some of the same interests, or have some interesting related ideas that you would like to share, please contact me.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/shermam/shermam.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+shermam.miranda@hotmail.com
