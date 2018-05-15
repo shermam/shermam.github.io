@@ -1,6 +1,6 @@
 ## Hi! I am Shermam Miranda
 
-I am a software developer. I graduated in IT at the Newton Paiva Colege in Belo Horizonte, MG - Brazil in 2013.
+I am a software developer. I graduated in IT at the Newton Paiva College in Belo Horizonte, MG - Brazil in 2013.
 
 Since the I have worked with these backend languages:
 
