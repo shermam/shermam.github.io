@@ -265,7 +265,7 @@ As you can see we need two hexadecimal digits to represent a byte (8 bits). So o
 
 The section 5.3.1 of the spec says the initial values for the 5 words of the hash are as follows:
 
-H0 = 6745230
+H0 = 67452301
 
 H1 = efcdab89
 
@@ -416,7 +416,7 @@ You get the idea.
 
 ### Hash computation
 
-Whew, were are almost getting to the main part of the algorithm.
+Whew, we are almost getting to the main part of the algorithm.
 
 For SHA-1 this part is going to be describe in section 6.1.2 of the spec.
 
@@ -595,13 +595,14 @@ As you can see, it is not even that scary.
 Here is my javascript interpretation of it:
 
 ```js
-    const TEMP = rotl(5, v[0]) + f(t, v[1], v[2], v[3]) + v[4] + k(t) + W[t];
-    v[4] = v[3];
-    v[3] = v[2];
-    v[2] = rotl(30, v[1]);
-    v[1] = v[0];
-    v[0] = TEMP;
-    }
+for (let t = 0; t < W.length; t++) {
+  const TEMP = rotl(5, v[0]) + f(t, v[1], v[2], v[3]) + v[4] + k(t) + W[t];
+  v[4] = v[3];
+  v[3] = v[2];
+  v[2] = rotl(30, v[1]);
+  v[1] = v[0];
+  v[0] = TEMP;
+}
 ```
 
 Remember that I replaced the variables a to e with v[0] to v[4].
@@ -655,7 +656,7 @@ And there is even a picture in [Wikipedia](https://en.wikipedia.org/wiki/SHA-1#/
 
 <img src="wiki-calculation.png">
 
-At first I thought this picture represented the entire algorithm when s in fact it is just a representation of this step.
+At first I thought this picture represented the entire algorithm when in fact it is just a representation of this step.
 
 #### STEP 4: Compute the ith intermediate hash value H(i)
 
