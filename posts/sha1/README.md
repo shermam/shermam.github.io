@@ -1,5 +1,7 @@
 # Implementing SHA-1 in Javascript
 
+January 12, 2020
+
 ## Why?
 
 I was reading the [git pro book](https://git-scm.com/book/en/v2). And they have a really cool section [here](https://git-scm.com/book/en/v2/Git-Internals-Git-Objects#_object_storage) that teaches you to implement a small piece of Ruby code that allows you to add an object to git's object store. For me that was one of the coolest things in the book. But since I do not know any Ruby I decided to follow the code in Javascript (// TODO: add link to the javascript code here). And it was pretty awesome to be able to tap into the inner workings of git without using any external libraries. Well, I had to use two node modules, [crypto](https://nodejs.org/api/crypto.html#crypto_crypto_createhash_algorithm_options) and [zlib](https://nodejs.org/api/zlib.html). Both are modules that come within node, so you do not need to npm install any extra packages or anything, but I would like to really do everything myself. The crypto module was used to generate the [SHA-1](https://en.wikipedia.org/wiki/SHA-1) hash digest (I will explain what that means later) of the contents I want to store in git, and zlib was used to compress my content using the deflate algorithm and save it to gits Object store, which is basically just a bunch of files. By the way, the git Object store is a lot less scary when you finish reading the Git Pro book. I really recommend it.
